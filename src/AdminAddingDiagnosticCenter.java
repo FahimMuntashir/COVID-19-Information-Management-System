@@ -90,6 +90,7 @@ public class AdminAddingDiagnosticCenter extends JFrame {
 	public AdminAddingDiagnosticCenter(ArrayList<Hospital> hospital, ArrayList<DiagnosticCenter> diagnostic) {
 		dcfile = new File("Diagnostic Center.txt");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
 		setBounds(100, 100, 752, 552);
 		contentPane = new JPanel();
 		contentPane.setAutoscrolls(true);

@@ -85,6 +85,7 @@ public class DiagnosticAllDateInfo extends JFrame {
 	public DiagnosticAllDateInfo(ArrayList<DiagnosticCenter> diagnostic, int i) {
 		dcfile = new File("Diagnostic Center.txt");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
 		setBounds(100, 100, 927, 598);
 		contentPane = new JPanel();
 		contentPane.setBackground(new Color(128, 128, 128));

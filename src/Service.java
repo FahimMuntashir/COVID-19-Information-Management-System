@@ -46,6 +46,7 @@ public class Service extends JFrame {
 	 */
 	public Service(ArrayList<Hospital> hospital) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
 		setBounds(100, 100, 963, 558);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));

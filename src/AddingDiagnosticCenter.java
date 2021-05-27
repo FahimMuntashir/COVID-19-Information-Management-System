@@ -90,6 +90,8 @@ public class AddingDiagnosticCenter extends JFrame {
 	public AddingDiagnosticCenter(ArrayList<Hospital> hospital, ArrayList<DiagnosticCenter> diagnostic) {
 		dcfile = new File("Diagnostic Center.txt");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
+
 		setBounds(100, 100, 752, 552);
 		contentPane = new JPanel();
 		contentPane.setAutoscrolls(true);

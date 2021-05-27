@@ -102,6 +102,7 @@ public class AdminShowDiagnostic extends JFrame {
 	public AdminShowDiagnostic(ArrayList<Hospital> hospital,ArrayList<DiagnosticCenter>diagnostic, int i) {
 		dcfile = new File("Diagnostic Center.txt");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
 		setBounds(100, 100, 1024, 636);
 		contentPane = new JPanel();
 		contentPane.setBackground(new Color(105, 105, 105));

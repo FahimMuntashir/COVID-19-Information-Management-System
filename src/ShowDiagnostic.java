@@ -87,6 +87,8 @@ public class ShowDiagnostic extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
+
+
 					//ShowHospital frame = new ShowHospital();
 					//frame.setVisible(true);
 				} catch (Exception e) {
@@ -102,7 +104,9 @@ public class ShowDiagnostic extends JFrame {
 	public ShowDiagnostic(ArrayList<DiagnosticCenter>diagnostic, int i) {
 		dcfile = new File("Diagnostic Center.txt");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
 		setBounds(100, 100, 983, 636);
+		setLocationRelativeTo(null);
 		contentPane = new JPanel();
 		contentPane.setBackground(new Color(47, 79, 79));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));

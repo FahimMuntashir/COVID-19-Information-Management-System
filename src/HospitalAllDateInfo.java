@@ -88,6 +88,7 @@ public class HospitalAllDateInfo extends JFrame {
 	public HospitalAllDateInfo(ArrayList<Hospital> hospital, int i) {
 		hfile = new File("Hospital.txt");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
 		setBounds(100, 100, 834, 649);
 		contentPane = new JPanel();
 		contentPane.setBackground(new Color(128, 128, 128));

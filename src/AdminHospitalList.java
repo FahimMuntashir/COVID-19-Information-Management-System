@@ -90,6 +90,7 @@ public class AdminHospitalList extends JFrame {
 	public AdminHospitalList(ArrayList<Hospital> hospital, ArrayList<DiagnosticCenter> diagnostic) {
 		hfile = new File("Hospital.txt");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
 		setBounds(100, 100, 836, 635);
 		contentPane = new JPanel();
 		contentPane.setBackground(new Color(105, 105, 105));

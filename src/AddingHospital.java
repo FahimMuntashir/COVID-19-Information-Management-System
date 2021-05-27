@@ -103,6 +103,7 @@ public class AddingHospital extends JFrame {
 		hfile = new File("Hospital.txt");
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
 		setBounds(100, 100, 793, 745);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));

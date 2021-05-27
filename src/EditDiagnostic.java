@@ -92,6 +92,7 @@ public class EditDiagnostic extends JFrame {
 	public EditDiagnostic(ArrayList<DiagnosticCenter>diagnostic, int i) {
 		dcfile = new File("Diagnostic Center.txt");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
 		setBounds(100, 100, 959, 523);
 		contentPane = new JPanel();
 		contentPane.setBackground(new Color(47, 79, 79));

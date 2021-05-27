@@ -37,6 +37,7 @@ public class AdminOption extends JFrame {
 	 */
 	public AdminOption(ArrayList<Hospital> hospital, ArrayList<DiagnosticCenter> diagnostic) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
 		setBounds(100, 100, 813, 648);
 		contentPane = new JPanel();
 		contentPane.setBackground(new Color(128, 128, 128));

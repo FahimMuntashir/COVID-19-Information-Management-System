@@ -36,6 +36,7 @@ public class RegOption extends JFrame {
 	public RegOption(ArrayList<Hospital> hospital, ArrayList<DiagnosticCenter> diagnostic) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 716, 525);
+		setLocationRelativeTo(null);
 		contentPane = new JPanel();
 		contentPane.setBackground(new Color(0, 51, 51));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));

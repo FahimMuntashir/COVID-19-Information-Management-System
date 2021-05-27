@@ -100,6 +100,7 @@ public class EditHospital extends JFrame {
 	public EditHospital(ArrayList<Hospital>hospital, int i) {
 		hfile = new File("Hospital.txt");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
 		setBounds(100, 100, 923, 595);
 		contentPane = new JPanel();
 		contentPane.setBackground(new Color(47, 79, 79));

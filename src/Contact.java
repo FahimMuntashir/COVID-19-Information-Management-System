@@ -48,6 +48,7 @@ public class Contact extends JFrame {
 	 */
 	public Contact(ArrayList<Hospital> hospital, ArrayList<DiagnosticCenter> diagnostic) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
 		setBounds(100, 100, 951, 566);
 		contentPane = new JPanel();
 		contentPane.setBackground(Color.LIGHT_GRAY);

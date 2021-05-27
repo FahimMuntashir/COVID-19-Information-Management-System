@@ -1,0 +1,8 @@
+Please run the "MainMenu" JFrame to check the project. For admin login, username: admin; password: admin123
+You can check other usernames and passwords from Hospital And Diagnostic Center files. The first two lines 
+are username and password.
+Project Members:
+Name: Abdul Mueed Id: 2013931642
+Name: Fahim Muntashir Id: 2021183642
+NAme: Md. Nazmul Islam Srabon Id: 2021227642
+

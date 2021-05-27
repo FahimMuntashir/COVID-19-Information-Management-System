@@ -1,0 +1,41 @@
+dmc
+123
+Dhaka Medical
+Dhaka Bangladesh
+Public
+Dhaka
+1234
+400
+40
+30
+30
+20
+1
+2021 4 25 500 400 300 10
+cmc
+123
+Chittagong Medical
+Chawkbazar,Chittagong
+Public
+Chattogram
+0258
+1200
+500
+450
+150
+120
+0
+apollo
+123
+Apollo Hospital
+Bashundhara, Dhaka
+Private
+Dhaka
+01364
+3000
+300
+200
+50
+45
+1
+2021 4 26 1000 800 700 12
